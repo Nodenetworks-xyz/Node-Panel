@@ -1,18 +1,17 @@
 {
-  "name": "ftbot",
+  "name": "node-panel",
   "version": "1.0.0",
-  "description": "",
+  "description": "A nodejs Discord bot that can act like a panel for hosting companies",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "NotCrazy",
+  "license": "MIT",
   "dependencies": {
     "discord.js": "^12.4.1",
     "fs": "0.0.1-security",
     "mongoose": "^5.11.6",
-    "node-cmd": "^4.0.0",
     "path": "^0.12.7",
     "pm2": "^4.5.0"
   }
