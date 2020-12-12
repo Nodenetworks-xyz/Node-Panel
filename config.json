@@ -1,0 +1,5 @@
+{
+    "token": "Discord-Bot-Token",
+    "prefix": "BOTPREFIX",
+    "mongoPath": "MONGOPATH"
+}
