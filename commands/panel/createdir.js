@@ -1,6 +1,6 @@
 // Requires and Libraries
 const mongo = require('../../mongo')
-const loginSchema = require('../../schemas/login-schema')
+const loginSchema = require('../../schemas/panelschema')
 const { prefix } = require('../../config.json')
 const fs = require('fs')
 const path = require('path');
