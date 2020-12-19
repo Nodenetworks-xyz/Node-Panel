@@ -1,6 +1,8 @@
+// Requires and Libraries
 const mongo = require('../../mongo')
-const loginSchema = require('../../schemas/login-schema')
+const loginSchema = require('../../schemas/panelschema')
 const { prefix } = require('../../config.json')
+// Actual command
 module.exports = {
   commands: 'login',
   minArgs: 1,

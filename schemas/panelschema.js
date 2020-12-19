@@ -10,7 +10,7 @@ const reqBoolean = {
   required: true,
 }
 
-const commandPanelSchema = mongoose.Schema({
+const commandLoginSchema = mongoose.Schema({
 // Info we will be adding to our mongodb
   _id: reqString,
   uploadactive: reqBoolean,
@@ -21,4 +21,4 @@ const commandPanelSchema = mongoose.Schema({
   
 })
 
-module.exports = mongoose.model('panel', commandPanelSchema)
+module.exports = mongoose.model('panel', commandLoginSchema)
